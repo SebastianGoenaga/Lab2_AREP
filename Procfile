@@ -1,1 +1,1 @@
-web: java $JAVA_OPTSgit  -cp target/classes;target/dependency/* edu.escuelaing.arem.SparkWebApp
+web: java $JAVA_OPTS git  -cp target/classes;target/dependency/* edu.escuelaing.arem.SparkWebApp
