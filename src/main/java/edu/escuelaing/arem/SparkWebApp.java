@@ -6,7 +6,7 @@ public class SparkWebApp {
 
     public static void main(String[] args) {
         port(getPort());
-        get("", (req, res) -> "Hello Heroku");
+        get("/hello", (req, res) -> "Hello Heroku");
         
     }
 
